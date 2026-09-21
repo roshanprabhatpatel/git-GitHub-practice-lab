@@ -22,7 +22,10 @@ git config --list
 ## 2. Start / Check Repository
 
 git init
---> Create a new local Git repository
+--> Create a new local Git repository Or make repository to git repository
+
+git remote add origin <-github link-> 
+--> Make local repo to remote repo
 
 git status
 --> Check current repository status
@@ -47,7 +50,7 @@ git commit -m "message"
 git log
 --> Show commit history
 
-## 6. Push
+## 5. Push
 
 git push origin main
 --> Upload local main branch to remote repo
@@ -55,13 +58,13 @@ git push origin main
 git push origin main
 --> Upload main branch
 
-## 7. Pull
+## 6. Pull
 
 git pull origin main
 --> Download and integrate changes from remote repo to local repo from remote main branch
 
 
-## 8. Branch
+## 7. Branch
 
 git branch
 --> Check branches
@@ -85,13 +88,13 @@ git checkout -b <branch-name>
 --> Create and switch to a new branch
 
 
-## 9. Merge
+## 8. Merge
 
 git merge <branch-name>
 --> Merge another branch into current branch
 
 
-## 10. Undo Changes
+## 9. Undo Changes
 
 git restore <file>
 --> Undo unstaged changes in a file
@@ -107,7 +110,7 @@ git reset --hard HEAD~1
 ⚠️ Use carefully
 
 
-## 11. Merge Conflict
+## 10. Merge Conflict
 
 git status
 --> Check files involved in conflict
@@ -116,7 +119,7 @@ git merge --abort
 --> Cancel the merge
 
 
-## 12. Useful Commands
+## 11. Useful Commands
 
 git help
 --> Show Git help
